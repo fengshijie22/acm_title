@@ -21,10 +21,10 @@ typedef pair<LL, LL> PLL;
 
 void solve()
 {
-	LL x;
-	cin >> x;
-	LL l, r;
-	cin >> l >> r;
+    LL x;
+    cin >> x;
+    LL l, r;
+    cin >> l >> r;
     if(x < l)
     {
         printf("%.10lf\n", 0);
